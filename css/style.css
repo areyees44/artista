@@ -1,0 +1,122 @@
+@charset "utf-8";
+
+/* el * hace referencia a un selector universal, afecta a todos los elementos que estan en el codigo fuente */
+
+* {
+      margin: 0;
+      padding: 0;
+}
+
+body {
+      background-image: url("../image/wall.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      text-align: center;
+      color: white;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.wrapper {
+      background-color: rgba(142,16,164,0.69);
+      width: 1000px;
+      margin-left: auto;
+      margin-right: auto;
+}
+
+.menu {
+      background-color: rgba(91,3,130,1.00);
+      height: 150px;
+}
+
+ul {
+      list-style-type: none;
+}
+
+li {
+      width: 249px;
+      float: left;
+      border-left:1px solid rgb(255, 255, 255);
+      line-height: 25px;
+      font-size: 18px;
+      
+}
+
+
+footer {
+      font-size: 22px;
+      background-color: rgb(91,3,130,1.00);
+      height: 50px;
+      line-height: 50px;
+}
+#izq{
+	border-left: none;
+      
+}
+
+.titulito{
+      font-size: 90px;
+      line-height: 100px;
+      font-family: 'Times New Roman', Times, serif;
+      color: rgb(242, 191, 243);
+
+}
+
+
+.fondo{
+	background-color: rgb(135, 4, 139);
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 50px;
+	margin: 50px;
+      color:rgb(250, 198, 198);
+		
+}
+
+
+.fondo p{
+	text-align: justify;
+}
+
+h2{
+	color: rgb(255, 255, 255);
+	border-top: 2px solid rgb(255, 255, 255);
+	border-bottom: 2px solid rgb(255, 255, 255);
+	width: 270px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 50px;
+      font-size: 35px;
+}
+
+
+.polaroid{
+	width: 317px;
+	height: 380px;
+	background-color: rgba(134, 4, 139, 0.582);
+	color: rgb(250, 198, 198);
+	box-shadow: 10px 10px 20px black;/* valores de box shadow: w, y, difuminado y color*/
+	float: left;
+	margin: 8px;
+}
+
+/* valores de box shadow: w, y, difuminado y color*/
+.clear{
+	clear: both;
+}
+
+
+a{
+	text-decoration: none;
+	color:rgb(242, 191, 243);
+}
+
+
+a:hover{
+	color:rgb(180, 11, 185);
+	font-size: 22px;
+}
+
+
+
